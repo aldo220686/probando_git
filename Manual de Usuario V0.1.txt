@@ -20,5 +20,6 @@ FORMULARIO DE REGISTRO DE PRODUCTOS
 - Falta realizar funcionalidad del boton buscar, listar productos y guardar
 - Falta validaciones de los combos y cajas de texto
 
+-----15-04-17----
 
 
