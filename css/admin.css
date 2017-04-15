@@ -1,0 +1,805 @@
+/* 
+    Product    : IMPERIALTEC S.A.C
+    Author     : Eduardo Paz
+    Email      : elyon@outlook.es / elyonedu@gmail.com
+*/
+article,menu,aside,figure,footer,header,nav,video,section,section,caption,li,a{
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+    width: 100%; 
+	/*height: 100%;/*asanchez 14-04-17*/
+    background:#f5f5f5;
+}
+.contenedor{
+    width: 100%; /*height:100%;*/
+    display: block;
+    float: left;
+}
+
+.contenedor .contenedor_derecho{
+	width: 100%;
+    display: block;
+    float: left;
+	/*position: fixed;*/
+	margin-left: 150px; 
+	
+}
+
+.contenedor .cabeza{
+    width: 100%; 
+    display: block;
+    float: left;
+	/*position: absolute;/*asanchez 14-04-17*/
+    /*position: fixed;*/
+    background:#f5f5f5;	
+	/*margin: 0 auto;*/
+}
+.contenedor .cabeza #grupocabeza{
+    width: 1100px;/*900px*/
+	/*margin-left: 150px; 
+	margin-right: auto;*/
+    
+	
+}
+.contenedor .cabeza #grupocabeza .logotipo{
+    width: 220px;/*25%*/
+    display: block;
+    float: left;
+    background: #33a643;
+    padding: 10px;/*10px;*/
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+	margin-left: 50px;
+}
+.contenedor .cabeza #grupocabeza .logotipo p{
+    width:80%;/*80%*/
+    display: block;
+    float: left;
+    color: #99ff99;
+    font-size: 11px;
+    margin-top: 10px;
+}
+.contenedor .cabeza #grupocabeza .logotipo img{
+    width: 34px;
+    display: block;
+    float: left;
+}
+.contenedor .cabeza #grupocabeza .datos{
+    width: 60%;/*70%*/
+    display: block;
+    float: right;
+    background: #33a643;
+    /*padding: 10px;*/
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    margin-top: 33px;	
+	/*margin-right: auto;*/
+}
+.contenedor .cabeza #grupocabeza .datos p{
+    width: 25%;/*200px;*//*30%*/
+    display: block;
+    float: right;
+    color: #99ff99;
+    font-size: 11px;
+    background: #00cc66;
+    padding: 10px;
+	margin-left: 20px;/**/
+    /*box-sizing: border-box;*/
+    border-radius: 20px 0 0 0;
+}
+
+.contenedor .derecha{
+    width: 150px;
+    position: fixed;
+    display: block;
+    float: right;
+    right: 0;
+    background:#f9be22;
+    border-radius:30px  0 0 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contenedor .derecha p{
+    width:100%;
+    display: block;
+    float: left;
+    color: gray;
+    font-size: 11px;
+}
+.contenedor .derecha input{
+    width:100%;
+    display: block;
+    float: left;
+    color: gray;
+    font-size: 11px;
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    background: white;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.contenedor .izquierda{
+    /*width: 170px;*/
+    width: 140px;
+    height: 100%;
+    position: fixed;
+    display: block;
+    float: left;
+    background:#efefef;
+    border-radius: 0 30px 0 0;
+    -webkit-box-shadow: 7px 18px 18px -14px rgba(0,0,0,0.56);
+    -moz-box-shadow: 7px 18px 18px -14px rgba(0,0,0,0.56);
+    box-shadow: 7px 18px 18px -14px rgba(0,0,0,0.56);
+}
+.izquierda menu{
+    width: 100%;
+    display: block;
+    float: left;
+}
+.izquierda menu nav{
+    width: 100%;
+    display: block;
+    float: left;
+}
+.izquierda menu nav ul{
+    width: 100%;
+    display: block;
+    float: left;
+}
+.izquierda menu nav ul li{
+    width: 100%;
+    display: block;
+    float: left;
+    border-bottom: 1px solid #cdcecd;
+}
+.izquierda menu nav ul li a{
+    width: 100%;
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: gray;
+    text-align:left;
+    font-size: 11px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: white;
+}
+.izquierda menu nav ul li a img{
+    width: 15px;
+    opacity: 0.6;
+}
+.izquierda menu nav ul li ul{
+    width: 100%;
+    display: none;
+    float: left;
+}
+.izquierda menu nav ul li ul li{
+    width: 100%;
+    display: block;
+    float: left;
+    background: #d0cfcf;
+}
+.izquierda menu nav ul li ul li a{
+    width: 100%;
+    display: block;
+    float: left;
+    text-decoration: none;
+    color:gray;
+    /*inicio asanchez 12-03-17*/
+    /*text-align:right;*/
+    text-align:left;
+    /*inicio asanchez 12-03-17*/
+    font-size: 11px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.izquierda menu nav ul li:hover > ul{
+    display: block;
+}
+.izquierda menu nav ul li a:hover{
+    background: #d0d0d0;
+    color: white;
+}
+.izquierda menu nav ul li a:active,#perfil{
+    background: #f9be22;
+    padding: 10px;
+    box-sizing: border-box;
+    color:gray;
+    font-size: 11px;
+    border-radius: 0 30px 0 0;
+}
+
+.cuerpo{
+    /*width:900px;1100 1080 1050*/
+    width:1085px; /*height:100%;*/min-height:100%;
+    /*height:590px;*//*asanchez 14-04-17*/
+    /*margin: 0 auto;*/
+	margin-left: 200px; 
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 65px;
+    background: #e5e5e5;
+    /*overflow: scroll;*//*asanchez 14-04-17*/
+    -webkit-box-shadow: 7px 60px 70px -14px rgba(0,0,0,0.56);
+    -moz-box-shadow: 7px 60px 70px -14px rgba(0,0,0,0.56);
+    box-shadow: 7px 60px 70px -14px rgba(0,0,0,0.56);
+}
+.cuerpo p{
+    width: 100%;
+    display: block;
+    float: left;
+    color:#c1c1c1;
+    font-size: 30px;
+    text-align: center;
+    margin-top:260px;
+}
+
+.cuerpo .reporte table{
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    font-size: 11px;
+    font-family: arial;
+}
+.cuerpo .cabezareporte{
+    border: 1px solid #f9be22;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #666666;
+    font-weight: bold;
+    background:#f9be22;
+}
+.cuerpo .seccionreporte{
+    border: 1px solid #f2eeee;
+    text-align: center;
+    font-size: 11px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #666666;
+    background: #f2eeee
+}
+.cuerpo .seccionnumero{
+    border: 1px solid #e6e5e5;
+    text-align: center;
+    font-size: 11px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #666666;
+    background: #d9d8d8;
+}
+.cuerpo .seccionreportedato{
+    border: 1px solid #e6e5e5;
+    text-align: center;
+    font-size: 11px;
+    padding:5px;
+    box-sizing: border-box;
+    color: #666666;
+    background: white;
+}
+tr:hover > .seccionreportedato {
+    background: #99ffcc;
+    transition: 1s;
+}
+.items{
+    width: 30px;
+    display: block;
+    float:right;
+}
+.items a{
+    width: 100%;
+    display: block;
+    float: left;
+}
+.items img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.cuerpo .Facturacion{
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #f5f5f5;
+}
+
+.cuerpo .Facturacion span{
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #f5f5f5;
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.cuerpo .Facturacion .datoscliente{
+    width: 70%;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+.cuerpo .Facturacion .datoscliente span{
+    width: 15%;
+    display: block;
+    float: left;
+    color: gray;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 11px;
+    text-align: left;
+    font-weight: bold;
+    /*background: #e5e5e5;*/
+    border-left:  3px solid #e5e5e5;
+}
+.cuerpo .Facturacion .datoscliente input{
+    width: 80%;
+    display: block;
+    float: left;
+    border: none;
+    background: white;
+    padding: 5px;
+    box-sizing: border-box;
+    color: gray;
+    font-size: 11px;
+    text-align: left;
+    outline: none;
+    border-bottom: 1px solid #c8c8c8;
+}
+.cuerpo .Facturacion .datoscliente input:hover{
+    background: #99ffcc;
+    transition: 1s;
+}
+.cuerpo .Facturacion .datosFecha{
+    width: 30%;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+.cuerpo .Facturacion .datosFecha span{
+    width: 50%;
+    display: block;
+    float: left;
+    color: gray;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 11px;
+    text-align: left;
+    font-weight: bold;
+    /*background: #e5e5e5;*/
+    border-left:  3px solid #e5e5e5;
+}
+.cuerpo .Facturacion .datosFecha input{
+    width: 50%;
+    display: block;
+    float: left;
+    border: none;
+    background: white;
+    padding: 5px;
+    box-sizing: border-box;
+    color: gray;
+    font-size: 11px;
+    text-align: left;
+    outline: none;
+    border-bottom: 1px solid #c8c8c8;
+    font-family: arial;
+}
+#fecha{
+    padding: 2.8px;
+    box-sizing: border-box;
+}
+#select{
+    padding:4px;
+    box-sizing: border-box;
+}
+
+.cuerpo .Facturacion .datosFecha select{
+    width: 50%;
+    display: block;
+    float: left;
+    border: none;
+    background: white;
+    padding: 5px;
+    box-sizing: border-box;
+    color: gray;
+    font-size: 11px;
+    text-align: left;
+    outline: none;
+    border-bottom: 1px solid #c8c8c8;
+    font-family: arial;
+}
+.cuerpo .Facturacion .datosFecha input:hover{
+    background: #99ffcc;
+    transition: 1s;
+}
+
+
+
+.cuerpo .Facturacion .datosVenta{
+    width: 100%;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cuerpo .Facturacion .datosVenta span{
+    width: 29.3%;
+    display: block;
+    float: left;
+    color: gray;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 11px;
+    text-align: left;
+    font-weight: bold;
+    /*background: #e5e5e5;*/
+    border-left:  3px solid #e5e5e5;
+    text-align: center;
+}
+.cuerpo .Facturacion .datosVenta input{
+    width: 29.3%;
+    display: block;
+    float: left;
+    border: none;
+    background: white;
+    padding: 5px;
+    box-sizing: border-box;
+    color: gray;
+    font-size: 11px;
+    text-align: left;
+    outline: none;
+    border-bottom: 1px solid #c8c8c8;
+    border-left:  3px solid #e5e5e5;
+    text-align: center;
+}
+.cuerpo .Facturacion .datosVenta a{
+    width: 15px;
+    display: block;
+    float: left;
+    font-size:9px;
+    color:#333333;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background:#e5e5e5;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.cuerpo .Facturacion .datosVenta input:hover{
+    background: #99ffcc;
+    transition: 1s;
+}
+.cuerpo .Facturacion .datosVenta a:hover{
+    background: #993300;
+    color: white;
+    transition: 1s;
+}
+#cantidad{
+    width: 8.2%;
+}
+#accion{
+    width: 15px;
+}
+.cuerpo .Facturacion .agregar{
+    width: 20%;
+    display: block;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    color: gray;
+    background: #f9be22;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.cuerpo .Facturacion .datosTotal{
+    width: 30%;
+    display: block;
+    float:right;
+}
+.cuerpo .Facturacion .datosTotal span{
+    width: 50%;
+    display: block;
+    float: left;
+    color: gray;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 11px;
+    text-align: left;
+    font-weight: bold;
+    /*background: #e5e5e5;*/
+    border-left:  3px solid #e5e5e5;
+}
+.cuerpo .Facturacion .datosTotal input{
+    width: 50%;
+    display: block;
+    float: left;
+    border: none;
+    background: white;
+    padding: 5px;
+    box-sizing: border-box;
+    color: gray;
+    font-size: 11px;
+    text-align: left;
+    outline: none;
+    border-bottom: 1px solid #c8c8c8;
+    font-family: arial;
+}
+.cuerpo .Facturacion .datosTotal input:hover{
+    background: #99ffcc;
+    transition: 1s;
+}
+
+.cuerpo .formNuevoproducto{
+    width:400px;
+    margin: 0 auto;
+}
+.cuerpo .formNuevoproducto input{
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    color: gray;
+    border: none;
+    background: white;
+    margin-bottom: 5px;
+    font-size: 11px;
+    outline-color: #f9be22;
+    border-left: 2px solid #f9be22;
+}
+.cuerpo .formNuevoproducto .titulo{
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    color: gray;
+    font-weight: bold;
+    border: none;
+    background:#f9be22;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+    border-radius: 10px 10px 0 0 ;
+}
+#btnproducto{
+    background:#cccccc;
+    font-size: 13px;
+    border-left: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btnproducto:hover{
+    background: #33a643;
+    color: white;
+    transition: 1s;
+}
+.btnFactura{
+    width: 100%;
+    display: block;
+    float:left;
+    margin-top: 10px;
+}
+.btnFactura input{
+    width: 20%;
+    display: block;
+    float: right;
+    border: none;
+    background: #00cc66;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 11px;
+    color: white;
+    cursor: pointer;
+    border-radius:10px;
+}
+.btnFactura input:hover{
+    background: #99ffcc;
+    color: gray;
+    transition: 1s;
+}
+
+.formbuscarProducto{
+    width: 300px;
+    height: 100%;
+    float:right;
+    right: -100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    background:#ffcc00;
+}
+.formbuscarProducto input{
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    color: gray;
+    background: white;
+    font-size: 11px;
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+}
+.formbuscarProducto p{
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    color: gray;
+    font-size: 17px;
+    border: none;
+    text-align: center;
+    font-weight:bold;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 15px;
+}
+.formbuscarProducto span{
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    color: gray;
+    font-size: 11px;
+    border: none;
+}
+.formbuscarProducto #btnbuscar{
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    color: gray;
+    font-size: 11px;
+    border: none;
+    background:#cccccc;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/*--------------------------*/
+/*-----INICIO DE SESION-----*/
+/*--------------------------*/
+#bgIS{
+    background: #ffcc00;
+}
+.iniciosesion{
+    width: 100%;
+    display: block;
+    float: left;
+}
+.iniciosesion .cuerpoinicio{
+    width: 300px;
+    margin: 150px auto;
+}
+.iniciosesion .cuerpoinicio .cabezasesion{
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background:#ffcc00;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid #999999;
+    text-align: center;
+}
+.iniciosesion .cuerpoinicio .cabezasesion img{
+    width: 50px;
+    display: block;
+    float: left;
+}
+.iniciosesion .cuerpoinicio .cabezasesion p{
+    width: 70%;
+    display: block;
+    float:right;
+    margin-top: 25px;
+    color:#666666;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.iniciosesion .cuerpoinicio .cuerposesion{
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background:#ffcc00;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 7px 60px 70px -14px rgba(0,0,0,0.56);
+    -moz-box-shadow: 7px 60px 70px -14px rgba(0,0,0,0.56);
+    box-shadow: 7px 60px 70px -14px rgba(0,0,0,0.56);
+}
+.iniciosesion .cuerpoinicio .cuerposesion input{
+    width: 100%;
+    display: block;
+    float: left;
+    color:#666666;
+    font-size: 12px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 10px;
+}
+#btninicio{
+    background: #009933;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#btninicio:hover{
+    background: #666666;
+    transition: 1s;
+}
+
+
+/*--------------------------*/
+/*
+#bgPie{
+    background: none;
+    width: 100%;
+    display: block;    
+}*/
+
+/*.pie{
+    width:900px; 
+    margin: 0 auto;
+}
+
+.pie footer{
+    width: 100%;    
+	clear: both;
+	display: block;
+    color: gray;
+    font-size: 11px;
+    background:#c9c8c8;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}*/
+
+footer{
+	width:900px;    
+	/*clear: both;
+	display: block;*/
+    color: gray;
+    font-size: 11px;
+    background:#c9c8c8;
+    text-align: center;
+    padding: 10px;
+	margin: 0 auto;
+	
+	
+    /*box-sizing: border-box;*/
+}

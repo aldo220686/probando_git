@@ -1,0 +1,24 @@
+
+FORMULARIO ORDEN DE COMPRA
+- Diseño Visual Terminado
+-El boton agregar funciona ok
+- Los botones buscar muestran el diseño de la busqueda dada
+- Falta realizar funcionalidad del boton listar productos y guardar
+- Falta validaciones de los combos y cajas de texto
+
+FORMULARIO REGISTRO DE COMPRAS
+- Diseño Visual Terminado
+- El boton Agregar en Información del Producto funciona ok, puede agregar proudctos al listado de detalle. Se realiza por el momento solo la validación que el campo producto este lleno de lo contrario no realiza acción alguna.
+- El boton buscar muestra el diseño de busqueda
+- La tabla detalle registro de productos funciona ok, en ella se puede editar, deshacer edición, eliminar y actualizar el registro.
+- el boton ver detalle muestra la tabla de detale de compras con el formato de sunat, no muestra datos por el momento
+- falta realizar funcionalidad en boton guardar y botones dentro del detale de compras con el formato de sunat
+-  Falta validaciones de los combos y cajas de texto
+
+FORMULARIO DE REGISTRO DE PRODUCTOS
+- Diseño Visual terminado
+- Falta realizar funcionalidad del boton buscar, listar productos y guardar
+- Falta validaciones de los combos y cajas de texto
+
+
+

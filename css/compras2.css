@@ -1,0 +1,516 @@
+/* 
+    Created on : 12/03/2017, 08:11:07 PM
+    Author     : Aldo Joseph Sanchez Oliveros
+    Email      : aldo.sanchez.oliveros@gmail.com
+*/
+
+.cuerpo .compras{
+    width: 100%;     display: inline-block;
+    padding: 10px;   box-sizing: border-box;   background: #fff;
+}
+
+.cuerpo .compras .tabla_rc6{
+	float: left;
+}
+
+.cuerpo .compras .tabla_oc2{
+	margin-left:10px;
+}
+
+.cuerpo .compras .tabla_oc3{
+	clear: both; border:  1px solid #e5e5e5;
+}
+
+.cuerpo .compras .oc_c1{/*Aplica formato a la primera columna de cada tabla*/
+	background: #eee;
+	color: gray;
+    padding: 4px;
+    font-size: 11px;   
+    text-align: left;
+    font-weight: bold;
+	border-left:  3px solid #e5e5e5;
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.cuerpo .compras .oc_c2{/*Aplica formato a la segunda columna de cada tabla*/
+	border-bottom: 1px solid #c8c8c8; border-right: 1px solid #c8c8c8;	
+}
+
+/*Columna Nro*/
+.cuerpo .compras .oc_th1{
+	color: gray;/*padding: 4px;*/
+    font-size: 11px;/*font-size: 0.7em;*/    
+    text-align: center;  font-weight: bold;
+}
+
+/*Columna Proveedor*/
+.cuerpo .compras .oc_th2{
+	width: 145px;	color: gray;
+    font-size: 11px;  text-align: center;
+    font-weight: bold;	border-left: 1px solid #c8c8c8;
+}
+
+/*Columna Producto*/
+.cuerpo .compras .oc_th3{
+	width: 160px;
+	color: gray;
+    font-size: 11px;    
+    text-align: center;
+    font-weight: bold;
+	border-left: 1px solid #c8c8c8;
+}
+
+/*Columna Cantidad*/
+.cuerpo .compras .oc_th4{
+	width: 60px;
+	color: gray;/*padding: 4px;*/
+    font-size: 11px;/*font-size: 0.7em;*/    
+    text-align: center;
+    font-weight: bold;
+	border-left: 1px solid #c8c8c8;
+}
+
+/*Columna Unidad de Medida*/
+.cuerpo .compras .oc_th5{
+	width: 60px;
+	color: gray;/*padding: 4px;*/
+    font-size: 11px;/*font-size: 0.7em;*/    
+    text-align: center;
+    font-weight: bold;
+	border-left: 1px solid #c8c8c8;
+}
+
+/*Columna Precio Unitario*/
+.cuerpo .compras .oc_th6{
+	width: 100px;
+	color: gray;/*padding: 4px;*/
+    font-size: 11px;/*font-size: 0.7em;*/    
+    text-align: center;
+    font-weight: bold;
+	border-left: 1px solid #c8c8c8;
+}
+
+/*Columna Total*/
+.cuerpo .compras .oc_th7{
+	width: 100px;
+	color: gray;/*padding: 4px;*/
+    font-size: 11px;/*font-size: 0.7em;*/    
+    text-align: center;
+    font-weight: bold;
+	border-left: 1px solid #c8c8c8;
+}
+
+.cuerpo .compras .tabla_rc1 .inputs_table1_serie{
+	width: 112px;
+	height: 21px;
+    float: left;
+    border: none;
+    background: #ededed;/*#c8c8c8;*/
+    color: gray;
+    font-size: 11px;
+    text-align: left;
+}
+
+.cuerpo .compras .tabla_rc2 .inputs_table1_razon_social{
+	width: 320px;
+	height: 21px;
+    float: left;
+    border: none;
+    background: white;
+    color: gray;
+    font-size: 11px;
+    text-align: left;
+}
+
+.cuerpo .compras .inputs_table1_producto{	
+	height: 21px;/*width: 100px;*/
+    float: left;
+    border: none;
+    background: white;
+    color: gray;
+    font-size: 11px;
+    text-align: left;
+}
+
+.cuerpo .compras .tabla_rp1 .inputs_table1_reg_producto_busqueda{
+	width: 145px;
+	height: 21px;
+    float: left;
+    border: none;
+    background: white;
+    color: gray;
+    font-size: 11px;
+    text-align: left;
+}
+
+.cuerpo .compras .tabla_rc2 .inputs_table1_doc_identidad{
+	width: 145px;
+	height: 21px;
+    float: left;
+    border: none;
+    background: white;
+    color: gray;
+    font-size: 11px;
+    text-align: left;
+}
+
+.cuerpo .compras .tabla_rc2 .inputs_table1_num_doc_identidad{
+	width: 100%;
+	height: 21px;
+    float: left;
+    border: none;
+    background: white;
+    color: gray;
+    font-size: 11px;
+    text-align: left;
+}
+
+.cuerpo .compras .tabla_rc2 .inputs_table1_num_doc_identidad:hover{
+	background: #99ffcc; transition: 1s;
+}
+
+.cuerpo .compras .fieldset_rc2{
+	width: 630px; float: left;
+}
+
+.cuerpo .compras .fieldset_rc3{/*width: 335px;*/
+	width: 325px; float: left; margin-left: 20px;
+}
+
+.cuerpo .compras .fieldset_rc5{
+	width: 435px;/*685px;*/float: left;
+}
+
+.cuerpo .compras .fieldset_rc6{/*width: 530px;*/
+	width: 520px;/*685px;*/ height: 95px; float: left; margin-left: 20px;
+}
+
+.cuerpo .compras .fieldset_rc7{
+	/*Desabilita el float del componente anterior: fieldset_rc6*/
+	clear: both;
+}
+
+.cuerpo .compras .fieldset_oc2{
+	/*Desabilita el float del componente anterior: fieldset_rc6*/
+	clear: both;
+}
+
+.cuerpo .compras .botones {
+	width: 300px;	margin: 0 auto;	
+	clear: both;/*Desabilita el float del componente anterior: fieldset_rc6*/
+}
+
+.cuerpo .compras  .btn_ver_guardar{
+	display: block; float: left;
+	width: 100px; border: none;
+	background: #eee; color: gray;
+	text-decoration: none; text-align: center;
+	border-radius:3px;	margin-right: 15px;
+	padding-right: 9px; padding-left: 9px; padding-bottom: 5px; padding-top: 5px;
+	font-weight: bold;
+}
+
+.cuerpo .compras  .btn_ver_guardar:hover{
+	background: #bcbcbc; cursor: pointer;
+}
+
+/*
+.cuerpo .compras .btn_guardar{
+	display: block; float: left;
+	width: 100px; border: none;
+	background: #eee; color: gray;
+	text-decoration: none; text-align: center;
+	border-radius:3px; margin-right: 15px;
+	padding-right: 9px; padding-left: 9px; padding-bottom: 5px; padding-top: 5px;
+	font-weight: bold;
+}
+
+.cuerpo .compras .btn_ver_detalle{
+	display: block; float: left;
+	width: 100px; border: none;
+	background: #eee; color: gray; 
+	text-decoration: none; text-align: center;
+	border-radius:3px; margin-right: 15px;
+	padding-right: 9px; padding-left: 9px; padding-bottom: 5px; padding-top: 5px;
+	font-weight: bold;
+}
+
+.cuerpo .compras .btn_guardar:hover{
+	background: #bcbcbc; cursor: pointer;
+}
+
+.cuerpo .compras .btn_ver_detalle:hover{
+	background: #bcbcbc; cursor: pointer;
+}*/
+
+.cuerpo .compras .tabla_rp1 .btn_buscar_producto{
+	border: none; /*width:100px;/*50px*/
+	background: #eee;
+	color: gray;
+	text-decoration: none;
+	border-radius:3px;
+	margin-right: 15px;
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-weight: bold;
+}
+
+.cuerpo .compras .tabla_rp2 .btn_nueva_categoria{
+	border: none; /*width:100px;/*50px*/
+	background: #eee;
+	color: gray;
+	text-decoration: none;
+	border-radius:3px;
+	margin-right: 15px;
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-weight: bold;
+}
+
+.cuerpo .compras .tabla_oc1 .btn_buscar_proveedor{
+	border: none; width:60px;/*50px*/
+	background: #eee;
+	color: gray;
+	text-decoration: none;
+	border-radius:3px;
+	margin-right: 15px;
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-weight: bold;
+}
+
+.cuerpo .compras .tabla_oc1 .btn_buscar_producto:hover{
+	background: #bcbcbc;/*#99ffcc*/ cursor: pointer;
+}
+
+.cuerpo .compras .tabla_oc1 .btn_buscar_proveedor:hover{
+	background: #bcbcbc;/*#99ffcc*/ cursor: pointer;
+}
+
+.cuerpo .compras .tabla_rp2 .btn_nueva_categoria:hover{
+	background: #bcbcbc;/*#99ffcc*/ cursor: pointer;
+}
+/*boton buscar producto*/
+.cuerpo .compras .btn_rc6{
+	border: none;
+	background: #eee;/*#ededed;/*#c8c8c8;	*/
+	color: gray;
+	/*color: #939393;*/
+	text-decoration: none;
+	border-radius:3px;
+	margin-right: 15px;
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-weight: bold;
+}
+
+.cuerpo .compras .btn_rc6:hover{
+	background: #bcbcbc;/*#99ffcc*/
+	cursor: pointer;
+}
+
+/*Inicio tabla Detalle Registro de Productos*/
+.cuerpo .compras .tabla_rc7{
+	margin: 0px;
+	padding: 0px;
+	border:1px solid #d3d3d3;
+	border-collapse: collapse;/*convierte los bordes de la tabla en linea delgadas*/
+}
+
+.cuerpo .compras .tabla_rc7 th{
+	border-right:1px solid #e0e0e0;
+}
+
+.cuerpo .compras .tabla_rc7 .trc7_th1 {
+	width: 30px;height: 18px;
+}
+
+.cuerpo .compras .tabla_rc7 .trc7_th2{
+	width: 300px;height: 18px;
+}
+
+.cuerpo .compras .tabla_rc7 .trc7_th3, .trc7_th4{
+	width: 70px;height: 18px;
+}
+
+.cuerpo .compras .tabla_rc7 .trc7_th5, .trc7_th6, .trc7_th7{
+	width: 120px;height: 18px;
+}
+
+.cuerpo .compras .tabla_rc7 td{
+	padding: 0px; height: 18px;
+	border-top:1px solid #e0e0e0;
+	border-right:1px solid #e0e0e0;
+}
+
+.cuerpo .compras .tabla_rc7 tr{
+	color: gray; /*text-align: center;*/
+}
+
+.t_rc7_cont, .t_rc7_umProduct, .t_rc7_cantidadProduct{
+	text-align: center;
+}
+
+.t_rc7_precioProduct, .t_rc7_totalProduct{
+	text-align: right;
+}
+/*Fin tabla Detalle Registro de Productos*/
+
+.cuerpo .compras .inputs_table1_inf_prod{
+	width: 80px; height: 21px;
+    float: left; border: none;
+    background: white;  color: gray;
+    font-size: 11px; text-align: left;
+}
+
+.cuerpo .compras .inputs_table1_reg_producto{
+	width: 135px;	height: 21px;
+    float: left;    border: none;
+    background: white;    color: gray;
+    font-size: 11px;    text-align: left;
+}	
+
+.cuerpo .compras .inputs_table1{
+    width: 112px;	height: 21px;
+    float: left;    border: none;
+    background: white;    color: gray;
+    font-size: 11px;    text-align: left;
+}
+
+.cuerpo .compras .inputs_table2{
+    width: 145px;	height: 21px;
+    float: left;    border: none;
+    background: white;    color: gray;
+    font-size: 11px;    text-align: left;	
+}
+
+.cuerpo .compras .tabla_rc7 input#t_rc7_cantidadProduct{
+	width: 68px;	height: 16px;
+    background: white;   color: gray; border:1px solid #c8c8c8;
+	padding: 0px; /*border-bottom:1px solid #c8c8c8; border-right:1px solid #c8c8c8;*/
+}
+
+.cuerpo .compras .tabla_rc7 input#t_rc7_precioProduct{
+	width: 118px;	height: 16px;
+    background: white;   color: gray; border:1px solid #c8c8c8;
+	padding: 0px; /*border-bottom:1px solid #c8c8c8; border-right:1px solid #c8c8c8;*/
+}
+
+.cuerpo .compras .inputs_table1:hover{
+    background: #99ffcc;/*#99ffcc*/ transition: 1s;
+}
+
+.cuerpo .compras .inputs_table1_doc_identidad:hover{
+    background: #99ffcc;/*#99ffcc*/ transition: 1s;
+}
+
+.cuerpo .compras .inputs_table1_razon_social:hover{
+    background: #99ffcc;/*#99ffcc*/ transition: 1s;
+}
+
+.cuerpo .compras .inputs_table2:hover{
+    background: #99ffcc;/*#99ffcc*/ transition: 1s;
+}
+
+.cuerpo .compras .selected:hover{/*Inicio de fila seleccionada de la tabla detalle registro de productos*/
+	background-color: #0585C0; color: white;
+}/*Fin de fila seleccionada de la tabla detalle registro de productos*/
+
+.img_icon{/*inicio Ajusta tamaño de iconos edit, delet, back, save, back*/
+	width: 18%; height: 18%; float: left; cursor: pointer;	
+}/*fin Ajusta tamaño de iconos edit, delet, back, save, back*/
+
+/*------------Tablas de la administracion------------*/
+table.adminVerDet {
+    width: 1500px;/*100%;*/
+    border-spacing: 1px;
+    background-color: #e7e7e7;
+    color: #666;
+	font-size:12px;
+	
+}
+
+table.adminVerDet td,
+table.adminVerDet th { 
+	padding: 3px; 
+}
+
+table.adminVerDet thead th {
+    /*text-align: left;/*justify; */
+    background: #f0f0f0;
+    color: #666;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #fff;
+}
+
+table.adminVerDet thead a:hover { text-decoration: none; }
+
+table.adminVerDet thead th img { vertical-align: middle; }
+
+table.adminVerDet tbody th { font-weight: bold; }
+
+table.adminVerDet tbody tr            { background-color: #fff;  text-align: left; }
+table.adminVerDet tbody tr.row1   { background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.adminVerDet tbody tr.row0:hover td,
+table.adminVerDet tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.adminVerDet tbody tr td        { height: 30px; background: #fff; border: 1px solid #fff;}
+table.adminVerDet tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; }
+
+table.adminVerDet tfoot tr { text-align: center;  color: #333; }
+table.adminVerDet tfoot td,
+table.adminVerDet tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.adminVerDet .adminVerDet_th1, .adminVerDet_th2, .adminVerDet_th3 .adminVerDet_th6{
+	width: 80px; text-align: left;
+}
+
+table.adminVerDet .adminVerDet_th4{
+	 text-align: center;
+}
+
+table.adminVerDet .adminVerDet_th5{
+	 width: 55px; text-align: center;
+}
+
+table.adminVerDet .adminVerDet_th8{
+	 width: 150px; 
+}
+
+table.adminVerDet .adminVerDet_th12{
+	 width: 180px; 
+}
+
+table.adminVerDet .adminVerDet_th13{
+	 width: 150px; 
+}
+
+table.adminVerDet .adminVerDet_th14{
+	 width: 75px; 
+}
+
+table.adminVerDet .adminVerDet_th15{
+	 width: 75px; 
+}
+
+table.adminVerDet .adminVerDet_th16{
+	 width: 75px; 
+}
+
+table.adminVerDet .adminVerDet_th17{
+	 width: 75px; 
+}
+
+
+
+
+/*---------------------------------------------------*/
